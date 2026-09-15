@@ -117,7 +117,7 @@ export default function Navbar() {
                 <Linkedin size={18} />
               </a>
               <a
-                href="/resume/Tarunpreet-Singh-Panesar.pdf"
+                href={`${import.meta.env.BASE_URL}resume/Tarunpreet-Singh-Panesar.pdf`}
                 download
                 className="btn-primary hidden sm:inline-flex text-xs px-4 py-2"
               >
@@ -173,7 +173,7 @@ export default function Navbar() {
                   className="btn-ghost p-2" aria-label="LinkedIn">
                   <Linkedin size={18} />
                 </a>
-                <a href="/resume/Tarunpreet-Singh-Panesar.pdf" download className="btn-primary text-xs px-4 py-2 ml-auto">
+                <a href={`${import.meta.env.BASE_URL}resume/Tarunpreet-Singh-Panesar.pdf`} download className="btn-primary text-xs px-4 py-2 ml-auto">
                   <Download size={14} />
                   Resume
                 </a>

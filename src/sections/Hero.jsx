@@ -228,7 +228,7 @@ export default function Hero() {
                 <ArrowRight size={16} />
               </button>
               <a
-                href="/resume/Tarunpreet-Singh-Panesar.pdf"
+                href={`${import.meta.env.BASE_URL}resume/Tarunpreet-Singh-Panesar.pdf`}
                 download
                 className="btn-secondary"
                 id="hero-download-resume"
